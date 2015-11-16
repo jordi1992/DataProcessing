@@ -323,7 +323,7 @@
 			};
 		}
 
-		var transformy = createTransform([-5, 30], [10, 375]);
+		var transformy = createTransform([-500, 3000], [750, 100]);
 		//var transformx = createTransform([0,365], [-390, 1400]);
 		//console.log(transform(12));011
 
@@ -339,7 +339,7 @@
 		for (var i in weerdata) {
 			var data = weerdata[i].split(",");
 	   		dag.push(data[0]);
-	   		temp.push(data[1]);
+	   		temp.push(data[1] * 100);
 		}
 
 		//console.log(dag)
