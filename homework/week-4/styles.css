@@ -1,0 +1,49 @@
+h1 {
+	font-family: Arial;
+	text-align: center;
+}
+
+h2 {
+	position: absolute;
+	font-family: arial;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    top: 400px;
+    left:-70px;
+}
+h3 {
+	font-family: arial;
+	font-size: 22px;
+	position: absolute;
+	left: 700px;
+	top: 900px;
+}
+.weer {
+	float: left;
+	position:absolute;
+}
+
+.lijnen{
+	float:left;
+	position: absolute;
+}
+
+#weatherdata {
+	display:none;
+}
+
+#lines {
+	cursor:none;
+}
+
+#weervalue {
+	position: absolute;
+	background-color: gray;
+	text-align: center;
+	color:white;
+	z-index: 9999;
+	font-family: arial;
+	width:100px;	
+	height: 100px;
+}
