@@ -33,7 +33,7 @@ window.onload = function() {
     		changeColor(countrylower, colors[8]);    	
     	} else if (population > 0){
     		changeColor(countrylower, colors[9]);    	
-    	}             	   	
+        }             	   	
 	}
 }
 /* changeColor takes a path ID and a color (hex value)
