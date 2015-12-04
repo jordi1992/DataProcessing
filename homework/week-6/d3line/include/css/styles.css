@@ -1,0 +1,29 @@
+.axis path, .axis line{
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+.axis text{
+  font-family: 'Arial';
+  font-size: 13px;
+}
+
+.tick{
+  stroke-array: 1, 2;
+}
+
+#weergrafiek {
+	cursor:crosshair;
+}
+#weervalue {
+	position: absolute;
+	background-color: steelblue;
+	text-align: center;
+	color:white;
+	z-index: 9999;
+	font-family: arial;
+	width:100px;	
+	height: 70px;
+	display:none;
+}
