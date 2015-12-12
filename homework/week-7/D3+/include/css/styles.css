@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #777;
+    shape-rendering: crispEdges;
+}
+body {
+    background: #ccf2ff;
+    /* For browsers that do not support gradients */
+    
+    background: -webkit-linear-gradient(#ccf2ff, #f9f9f9);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(#ccf2ff, #f9f9f9);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(#ccf2ff, #f9f9f9);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(#ccf2ff, #f9f9f9);
+    /* Standard syntax */
+}
+body {
+    margin-top: 100px;
+}
+svg {
+    margin-top: -5px;
+    margin-left: 25%!important;
+    background-color: white;
+}
+ul {
+    list-style: none;
+    margin-top: 28px!important;
+}
+ul li {
+    display: inline;
+    padding: 50px;
+    margin-left: 25%;
+    font-size: 18px;
+    font-family: arial;
+    color: #f9f9f9;
+}
+.legend1 {
+    position: absolute;
+    display:none;
+    left: 1200px;
+    top: 900px;
+}
+.legend2 {
+    position: absolute;
+    display:none;
+    left: 1200px;
+    top: 900px;
+}
+.legend3 {
+    position: absolute;
+    display:none;
+    left: 1200px;
+    top: 900px;
+}
+.rect1,
+rect2,
+rect3,
+rect4,
+rect5,
+rect6,
+rect7,
+rect8 {
+    width: 20px;
+    height: 20px;
+    maring-left: 5px;
+    padding: 5px;
+    color: #000!important;
+    z-index: 10000;
+}
+.tooltip {
+    font-family: arial;
+    color: white;
+    text-shadow: 1px 0 0 #262626, 0 -1px 0 #262626, 0 1px 0 #262626, -1px 0 0 #262626;
+}
+.navbar {
+    margin-left: 25%;
+    width: 989px;
+    height: 80px;
+    background: rgba(237, 237, 237, 1);
+    background: -moz-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(201, 201, 201, 1) 67%, rgba(184, 184, 184, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237, 237, 237, 1)), color-stop(67%, rgba(201, 201, 201, 1)), color-stop(100%, rgba(184, 184, 184, 1)));
+    background: -webkit-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(201, 201, 201, 1) 67%, rgba(184, 184, 184, 1) 100%);
+    background: -o-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(201, 201, 201, 1) 67%, rgba(184, 184, 184, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(237, 237, 237, 1) 0%, rgba(201, 201, 201, 1) 67%, rgba(184, 184, 184, 1) 100%);
+    background: linear-gradient(to bottom, rgba(237, 237, 237, 1) 0%, rgba(201, 201, 201, 1) 67%, rgba(184, 184, 184, 1) 100%);
+    position: absolute;
+    top: 20px!important;
+}
+.container {
+    margin-left: 45%!important;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 999;
+}
+.bar {} .bar:hover {
+    transition: 0.5s;
+    fill: #7D8085!important;
+}
+.axis {
+    font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.x.axis path {
+    display: none;
+}
+.axis text {
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+.text{
+	background-color: white;
+	width: 989px;
+	height:900px;
+	margin-top: -5px;
+    margin-left: 25%!important;
+}
+
+h1{
+	font-family: arial;
+	color:lightgray;
+	margin-left:20px;
+}
+
+p {
+	font-family: arial;
+	color:#262626;
+	margin-left:20px;
+}
